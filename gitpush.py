@@ -25,8 +25,7 @@ while True:
         cmd = [
             "git", "commit", "-m", f"add {i}th model",
         ]
-        res = sp.run(cmd)gitpush.py      super_resolution_model.weights.keras_3
-
+        res = sp.run(cmd)
         print(res.stdout)
         print(res.stderr)
         
